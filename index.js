@@ -91,10 +91,4 @@ Strategy.prototype.userProfile = function (accessToken, done) {
     });
 };
 
-
-OAuth2Strategy.prototype.parseErrorResponse = function (body, status) {
-    console.log({ body, status });
-    return OAuth2Strategy.parseErrorResponse(body, status);
-};
-
 module.exports = exports.LVConnectStrategy = exports.default = Strategy;
