@@ -1,6 +1,6 @@
 {
     "name": "lvconnect-passport",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "LVConnect strategy for Passport.js",
     "main": "index.js",
     "author": "Mathieu TUDISCO <dev@mathieutu.ovh>",

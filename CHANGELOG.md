@@ -1,6 +1,14 @@
 # Changelog
 
 
+<a name="1.0.2"></a>
+## 1.0.2 (2019-02-14)
+
+### Fixed
+
+- 🐛 Publish only needed files. [[6a4f750](https://github.com/mathieutu/lvconnect-passport/commit/6a4f750965f3867f81e2b280ac87148be87fa5b2)]
+
+
 <a name="1.0.1"></a>
 ## 1.0.1 (2019-02-14)
 
