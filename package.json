@@ -7,11 +7,15 @@
     "repository": "https://github.com/mathieutu/lvconnect-passport.git",
     "bugs": "https://github.com//mathieutu/lvconnect-passport/issues",
     "homepage": "https://github.com/mathieutu/lvconnect-passport",
+    "license": "MIT",
     "keywords": [
+        "mathieutu",
         "lvconnect",
         "oauth",
         "passport",
-        "oauth2"
+        "oauth2",
+        "linkvalue",
+        "link-value"
     ],
     "scripts": {
         "changelog": "gitmoji-changelog"
@@ -19,11 +23,11 @@
     "dependencies": {
         "passport-oauth2": "^1.4.0"
     },
-    "license": "MIT",
-    "engines": {
-        "node": ">=0.4.0"
-    },
     "devDependencies": {
         "gitmoji-changelog": "^1.1.0"
+    },
+    "files": ["index.js"],
+    "engines": {
+        "node": ">=0.4.0"
     }
 }

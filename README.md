@@ -91,4 +91,4 @@ This LVConnect Passport package is an open-sourced software licensed under the M
 
 ## Contributing
 
-Issues and PRs are obviously welcomed and encouraged, as well for new features and documentation.
+Issues and PRs are obviously welcomed and encouraged, for new features as well as documentation.
