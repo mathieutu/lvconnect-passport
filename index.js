@@ -21,15 +21,15 @@ function urlFactory(url) {
  *   - `clientSecret`  your LVConnect application's Client Secret
  *   - `callbackURL`   URL to which LVConnect will redirect the user after granting authorization
  *   - `scope`         array of permission scopes to request.  valid scopes include:
- *                     'user', 'public_repo', 'repo', 'gist', or none. TODO
- *                     (see http://developer.github.com/v3/oauth/#scopes for more info)
+ *                     'users:get', 'profile:get', 'profile:modify'
+ *                     (see lvconnect sources /packages/api/src/oauth/scopes.js for all scopes)
  *
  * Examples:
  *
  *     passport.use(new LVConnectStrategy({
  *         clientID: '123-456-789',
  *         clientSecret: 'shhh-its-a-secret'
- *         callbackURL: 'https://www.example.net/auth/github/callback',
+ *         callbackURL: 'https://www.example.net/auth/lvconnect/callback',
  *         userAgent: 'myapp.com'
  *       },
  *       function(accessToken, refreshToken, profile, cb) {
@@ -89,12 +89,6 @@ Strategy.prototype.userProfile = function (accessToken, done) {
             done(new Error('Failed to parse user profile:' + body));
         }
     });
-};
-
-
-OAuth2Strategy.prototype.parseErrorResponse = function (body, status) {
-    console.log({ body, status });
-    return OAuth2Strategy.parseErrorResponse(body, status);
 };
 
 module.exports = exports.LVConnectStrategy = exports.default = Strategy;

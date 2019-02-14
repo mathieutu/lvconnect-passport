@@ -79,7 +79,7 @@ app.get('/auth/lvconnect/callback',
 ## Examples
 
 Developers using the popular [Express](http://expressjs.com/) web framework can
-refer to an [example](https://lvconnect.com/passport/express-4.x-facebook-example)
+refer to an [example](https://github.com/passport/express-4.x-facebook-example)
 as a starting point for their own web applications.  The example shows how to
 authenticate users using Facebook.  However, because both Facebook and LVConnect
 use OAuth 2.0, the code is similar.  Simply replace references to Facebook with
@@ -91,4 +91,4 @@ This LVConnect Passport package is an open-sourced software licensed under the M
 
 ## Contributing
 
-Issues and PRs are obviously welcomed and encouraged, as well for new features than documentation.
+Issues and PRs are obviously welcomed and encouraged, as well for new features and documentation.
