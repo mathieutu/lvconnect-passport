@@ -24,7 +24,7 @@
         "passport-oauth2": "^1.4.0"
     },
     "devDependencies": {
-        "gitmoji-changelog": "^1.1.0"
+        "gitmoji-changelog": "^2.0.1"
     },
     "files": ["index.js"],
     "engines": {
